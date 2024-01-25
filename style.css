@@ -18,7 +18,8 @@ body {
 /* header */
 header {
     display: flex;
-    gap: 68%;
+    /* gap: 68%; */
+    justify-content: space-between;
     width: 100%;
     padding: 5%;
     background-color: #08486b;
@@ -75,7 +76,7 @@ main {
     color: #FAFAFA;
     font-family: Space Grotesk;
     overflow-x: hidden;
-
+width: 100%;
 }
 
 /* About */
@@ -156,11 +157,12 @@ button {
 
 footer {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     gap: 30px;
     background-color: #08486b;
     padding: 10% 5%;
+    width: 100%;
 }
 
 footer .logo {
@@ -247,4 +249,13 @@ footer h1 {
 
 #x {
     padding: 12px 13px 10px 13px;
+}
+
+
+
+/* Media Querry */
+@media screen and (min-width:342px) {
+    .recruiter button {
+        width: 8rem;
+    }
 }
