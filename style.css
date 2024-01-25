@@ -57,6 +57,25 @@ nav {
 
 }
 
+#visible {
+    position: absolute;
+
+}
+
+#visible ul {
+    display: flex;
+    list-style: none;
+    gap: 10%;
+    white-space: nowrap;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+
+
+
+
 
 /* .span1 {
     position: relative;
@@ -78,6 +97,7 @@ main {
     font-family: Space Grotesk;
     overflow-x: hidden;
     width: 100%;
+    position: relative;
 }
 
 /* About */
@@ -358,12 +378,18 @@ footer h1 {
         gap: 50%;
         white-space: nowrap;
         font-size: 20px;
+        align-items: center;
     }
 
     .span {
         display: none;
     }
 
+    .ul {
+        font-weight: 900;
+        border-bottom: 2px solid white;
+        line-height: 50px;
+    }
 
     .about h1 {
         font-size: 30px;

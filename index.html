@@ -24,18 +24,26 @@
             <ul>
                 <li>Home</li>
                 <li>About</li>
-                <li>Contact</li>
+                <li class="ul">Contact</li>
             </ul>
         </nav>
 
         <!-- hamburger menu -->
-        <div class="span">
+        <div class="span" onclick="hamburgerMenu()">
             <span class="span1"></span>
             <span class="span2"></span>
             <span class="span3"></span>
         </div>
     </header>
 
+
+    <nav id="visible" >
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li class="ul">Contact</li>
+        </ul>
+    </nav>
     <!-- main -->
     <main>
 
@@ -43,7 +51,7 @@
         <div class="about">
             <div>
                 <h1> Hello 👋</h1>
-                <p>I appreciate you visiting our site. Send us an email if you want to get in touch with me
+                <p>I appreciate you visiting our site. Send us an email if you want to get in touch with us
                     to discuss collaboration, UI development, a project, or a career.
                 </p>
 
@@ -73,7 +81,7 @@
             </h1>
             <div class="contact">
                 <a href="">
-                    <button>Contact me</button>
+                    <button>Contact Us</button>
                 </a>
                 <div>
                     <a href="https://www.linkedin.com/in/john-kalu-962357230" class="x"><img src="mdi_linkedin.png"
@@ -91,6 +99,7 @@
         </div>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
