@@ -420,12 +420,28 @@ footer h1 {
 /* screen 1000 */
 @media screen and (min-width:1000px) {
     header {
-        gap: 45%;
-        padding: 4% 5%;
+        gap: 50%;
+    }
+
+    footer {
+        padding: 4% 3%;
     }
 
     .footerDiv1 {
-        gap: 25%;
+        gap: 35%;
+
+    }
+}
+
+
+/* screen 1168 */
+@media screen and (min-width:1168px) {
+    header {
+        gap: 58%;
+    }
+
+    .footerDiv1 {
+        gap: 45%;
 
     }
 }
