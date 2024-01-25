@@ -76,7 +76,7 @@ main {
     color: #FAFAFA;
     font-family: Space Grotesk;
     overflow-x: hidden;
-width: 100%;
+    width: 100%;
 }
 
 /* About */
@@ -256,6 +256,66 @@ footer h1 {
 /* Media Querry */
 @media screen and (min-width:342px) {
     .recruiter button {
-        width: 8rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (min-width:384px) {
+    .recruiter button {
+        width: 23rem;
+    }
+}
+
+@media screen and (min-width:446px) {
+    .recruiter button {
+        width: 26rem;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .recruiter button {
+        width: 29rem;
+    }
+
+    footer {
+        padding: 5%;
+    }
+}
+
+@media screen and (min-width:578px) {
+    .recruiter button {
+        width: 33rem;
+    }
+}
+
+@media screen and (min-width:656px) {
+    .recruiter button {
+        width: 38rem;
+    }
+
+    main {
+        padding: 5%;
+    }
+}
+
+@media screen and (min-width:802px) {
+    header {
+        justify-content: initial;
+        gap: 60%;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 20%;
+        white-space: nowrap;
+    }
+
+    .span {
+        display: none;
     }
 }
